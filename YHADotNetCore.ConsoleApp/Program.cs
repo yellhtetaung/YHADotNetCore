@@ -38,7 +38,10 @@ using YHADotNetCore.ConsoleApp;
 // CRUD
 
 AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
-adoDotNetExample.Read();
+//adoDotNetExample.Read();
 //adoDotNetExample.Create("title", "author", "content");
+//adoDotNetExample.Update(13, "title test", "author test", "content test");
+//adoDotNetExample.Delete(12);
+adoDotNetExample.Edit(5);
 
 Console.ReadKey();
