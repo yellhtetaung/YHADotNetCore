@@ -37,11 +37,14 @@ using YHADotNetCore.ConsoleApp;
 // Ado.Net Read
 // CRUD
 
-AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+//AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 //adoDotNetExample.Read();
 //adoDotNetExample.Create("title", "author", "content");
 //adoDotNetExample.Update(13, "title test", "author test", "content test");
 //adoDotNetExample.Delete(12);
-adoDotNetExample.Edit(5);
+//adoDotNetExample.Edit(5);
+
+DapperExample dapperExample = new DapperExample();
+dapperExample.Run();
 
 Console.ReadKey();
